@@ -366,14 +366,14 @@ body {
         flex-wrap: wrap;
     }
     .search {
-        flex: 100%;
+        flex-basis: 100%;
         order: 3;
         margin-top: 5%;
     }
-    .container {
+    .content {
         flex-wrap: wrap;
     }
-    .actors-title, .actors-title {
+    .actors-title, .actors-list {
         display: none;
     }
     .short-info {
@@ -396,6 +396,5 @@ body {
         display: inline-block;
         margin-top: -20%;
         width: 100%;
-
     }
 }
